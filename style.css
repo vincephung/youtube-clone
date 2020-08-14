@@ -9,7 +9,7 @@
 
 .left-nav {
     display: flex;
-    width: 200px;
+    max-width: 200px;
         
 }
 .left-nav #title {

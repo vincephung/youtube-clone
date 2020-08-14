@@ -9,12 +9,15 @@
 
 .left-nav {
     display: flex;
-    max-width: 200px;
         
 }
 .left-nav #title {
     font-size: 20px;
     font-weight: bold;
+}
+
+.left-nav .nav-img{
+    width: 150px;
 }
 
 .fa-bars {

@@ -5,21 +5,18 @@
     padding: 0.7rem;
     background-color: rgb(255, 255, 255);
     align-items: center;
-    width: 100%;
 }
 
 .left-nav {
     display: flex;
-    width: 200px
+    width: 200px;
         
 }
 .left-nav #title {
     font-size: 20px;
     font-weight: bold;
 }
-.left-nav .nav-img{
- 
-}
+
 .fa-bars {
     margin: 0 1rem;
 }

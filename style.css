@@ -1,0 +1,179 @@
+/*nav var */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    width: 100%;
+}
+
+.left-nav {
+    display: flex;
+    width: 200px
+        
+}
+.left-nav #title {
+    font-size: 20px;
+    font-weight: bold;
+}
+.left-nav .nav-img{
+ 
+}
+.fa-bars {
+    margin: 0 1rem;
+}
+.fa-youtube {
+    color: red;
+    margin-right: 5px;
+    font-size: 1.8rem;
+}
+
+.right-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.right-nav i {
+    margin-right: 2rem;
+    padding: 2px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    border: solid 1px grey;
+}
+
+.search-container .searchTerm {
+    width: 33rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    border: 1px solid rgba(221, 221, 221, 0.26);
+}
+
+body{
+    background-color: rgba(221, 221, 221, 0.315);
+    width: 100%;
+
+}
+
+.wrap{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Video and comment section */
+#main{
+    width: 65%;
+    padding: 10px;
+}
+
+.stats{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 40%;
+    padding: 10px;
+    
+}
+
+.vidlink{
+    width: 100%; 
+    height: 30em;
+}
+
+
+.cta{
+    opacity: 0.7;
+    font-size: .74em;
+}
+
+.views{
+    float:left;
+}
+
+/*description part */
+.channel-description{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+
+}
+.profile{
+    display:flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    padding: 10px;
+    
+}
+
+.profile img{
+    border-radius: 50%;
+}
+
+
+/* comment section */
+
+.comment-header{
+    display:flex;
+}
+
+.comment-header i {
+    margin-left: 30px;
+}
+
+.add-comment{
+    display:flex;
+}
+.add-comment p{
+    border-bottom: solid 0.75px grey;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.avatarimg{
+    border-radius: 50%;
+}
+
+
+/* sidebar section */
+aside{
+    width: 30%;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    align-items: center;
+   
+}
+
+#up-next{
+    padding: 6px;
+    border-bottom: solid 0.75px black;
+}
+
+.side-videos{
+    display: flex;
+    width: 100%;
+}
+
+.side-videos img{
+    width: 250px;
+    padding-right: 20px;  
+    flex-shrink: 0;  
+}
+
+.title{
+    font-size: 15px;
+}
+.side-videos p{
+    font-size: 12.5px;
+}
